@@ -1,0 +1,1 @@
+{"classes": ["silence", "unknown", "sheila"], "train_samples_num": 4817, "testing_samples_num": 603, "validation_samples_num": 602, "representative_samples_num": 61, "data_shape": [49, 40, 1]}

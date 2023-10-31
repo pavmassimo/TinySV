@@ -1,0 +1,1 @@
+Implementation of GE2E Loss Speaker Verification from https://github.com/yistLin/dvector

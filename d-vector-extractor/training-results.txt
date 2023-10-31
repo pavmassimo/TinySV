@@ -1,0 +1,44 @@
+Training results of the CNN for performing speaker classification. Produced by "train_fe_cnn.py" 
+
+Model: "cnn-librispeech-classifier"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input (InputLayer)          [(None, 49, 40, 1)]       0         
+                                                                 
+ batch_normalization (BatchN  (None, 49, 40, 1)        4         
+ ormalization)                                                   
+                                                                 
+ conv2d (Conv2D)             (None, 49, 40, 8)         80        
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 16, 13, 8)        0         
+ )                                                               
+                                                                 
+ conv2d_1 (Conv2D)           (None, 16, 13, 16)        1168      
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 8, 6, 16)         0         
+ 2D)                                                             
+                                                                 
+ conv2d_2 (Conv2D)           (None, 4, 3, 32)          4640      
+                                                                 
+ conv2d_3 (Conv2D)           (None, 2, 2, 64)          18496     
+                                                                 
+ flatten (Flatten)           (None, 256)               0         
+                                                                 
+ fully_connected (Dense)     (None, 128)               32896     
+                                                                 
+ dropout (Dropout)           (None, 128)               0         
+                                                                 
+ output (Dense)              (None, 94)                12126     
+                                                                 
+=================================================================
+Total params: 69,410
+Trainable params: 69,408
+Non-trainable params: 2
+_________________________________________________________________
+
+
+Epoch 700/700
+2987/2987 [==============================] - 29s 10ms/step - loss: 0.9174 - accuracy: 0.7113 - val_loss: 1.2628 - val_accuracy: 0.6489
+640/640 [==============================] - 5s 8ms/step - loss: 1.2730 - accuracy: 0.6523
+641/641 [==============================] - 2s 3ms/step
