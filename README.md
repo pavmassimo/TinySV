@@ -1,6 +1,6 @@
 # TinySV
 
-Repository of the addiotanary material of the paper TinySV: Speaker Verification in TinyML with On-device Learning, Pavan, Mombelli, Sinacori, Roveri, 2023.
+Repository of the addiotanary material of the paper TinySV: Speaker Verification in TinyML with On-device Learning, Pavan, Mombelli, Sinacori, Roveri, 2024.
 
 Details on the training of the keyword spotting module can be found in the folder kws.
 
